@@ -1,0 +1,33 @@
+/* div{
+    text-align: center;
+    background: chocolate;
+}
+h1{
+    color: var(--titulo-color);
+}
+h2{
+    color: beige;
+}
+:root{
+    --titulo-color: yellow;
+} */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 300px;
+    font-size: 30px;
+}
+.cursos{
+    --cursos-color: blue;
+    --cursos-fondo: green;
+}
+.gustavo{
+    --borde: red;
+    display: inline-block;
+    border: 3px solid var(--borde) ;
+    padding: 12px;
+    border-radius: 10px;
+}
+.gustavo:hover{
+    background: var(--cursos-fondo);
+    color: var(--cursos-color);
+}

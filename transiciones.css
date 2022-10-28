@@ -1,0 +1,51 @@
+/* div{
+    width: 150px;
+    height: 150px;
+    background: brown;
+    border-radius: 50%;
+    transition: all 2s;
+}
+div:hover{
+    width: 300px;
+    background-color: cornflowerblue;
+} */
+
+/* div{
+    width: 150px;
+    height: 150px;
+    background: rebeccapurple;
+    transition: all 1s;
+}
+#transicion{
+    transition-timing-function: linear;
+}
+div:hover{
+    width: 450px;
+} */
+#transicion{
+    background: coral;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    animation: mover 5s infinite;
+    animation-delay: 1000ms;
+}
+@keyframes mover{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(200px);
+        
+        background: linear-gradient(120deg, rgb(255, 60, 0) 0%, rgb(107, 39, 39) 100%);
+    }
+    50%{
+        transform: translateY(200px) translateX(200px);
+        background: linear-gradient(to top, blue 0%, darkblue 100%);
+    }
+    75%{
+        transform: translateX(0px) translateY(200px);
+        background: linear-gradient(to top, rgb(89, 0, 255) 0%, rgb(83, 0, 139) 100%);
+    }
+    
+}

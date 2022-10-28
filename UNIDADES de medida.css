@@ -1,0 +1,40 @@
+html{
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.caja{
+    display: flex;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.col{
+    flex: 1;
+    padding: 0 1em;
+}
+h1{
+    color: rgb(30, 174, 210);
+
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(30, 159, 210);
+    padding: 1em 4em;
+}
+.cont{
+    background: linear-gradient(to left, darkslategrey, lightcyan);
+    padding: 10vh 0;
+    height: 100vh;
+}
+.cont-img{
+    box-shadow: 3px 3px 25px 5px rgb(0, 0, 0);
+}
+.cont-title{
+    box-shadow: 3px 3px 25px 5px ;
+}
